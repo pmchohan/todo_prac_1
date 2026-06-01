@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--color-paper);
+}
+
+body {
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  background:
+    linear-gradient(90deg, rgba(18, 97, 95, 0.05) 1px, transparent 1px) 0 0 / 42px 42px,
+    linear-gradient(0deg, rgba(169, 51, 76, 0.04) 1px, transparent 1px) 0 0 / 42px 42px,
+    var(--color-paper);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+:focus-visible {
+  box-shadow: var(--focus-ring);
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.eyebrow {
+  margin: 0 0 var(--space-2);
+  color: var(--color-pomegranate);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms;
+    scroll-behavior: auto;
+    transition-duration: 0.001ms;
+  }
+}

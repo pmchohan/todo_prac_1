@@ -1,0 +1,28 @@
+.empty-state,
+.loading-panel {
+  display: grid;
+  place-items: center;
+  gap: var(--space-3);
+  min-height: 320px;
+  padding: var(--space-8);
+  text-align: center;
+}
+
+.empty-state__mark {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  color: var(--color-paper-strong);
+  font-family: var(--font-serif);
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--color-teal), var(--color-pomegranate));
+  border-radius: 50%;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.empty-state p {
+  max-width: 42ch;
+  color: var(--color-muted);
+}
