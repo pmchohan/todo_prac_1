@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Yaad-Dehani clipboard</title>
+  <desc id="desc">A warm gold clipboard with soft teal and saffron reminder lines.</desc>
+  <defs>
+    <linearGradient id="board" x1="22" x2="108" y1="18" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE1A1"/>
+      <stop offset=".46" stop-color="#D99432"/>
+      <stop offset="1" stop-color="#8E4518"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="30" x2="96" y1="34" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7E8"/>
+      <stop offset=".55" stop-color="#D9E4E5"/>
+      <stop offset="1" stop-color="#8EA9AE"/>
+    </linearGradient>
+    <linearGradient id="clip" x1="42" x2="88" y1="8" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF2C2"/>
+      <stop offset=".45" stop-color="#E8AA3E"/>
+      <stop offset="1" stop-color="#9F5A18"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#5A2C0E" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <rect x="22" y="20" width="84" height="96" rx="19" fill="url(#board)" filter="url(#shadow)" transform="rotate(-4 64 68)"/>
+  <rect x="31" y="34" width="66" height="72" rx="11" fill="url(#paper)" transform="rotate(-4 64 70)"/>
+  <path d="M45 25h9a12 12 0 0 1 24 0h9c5 0 9 4 9 9v11H36V34c0-5 4-9 9-9Z" fill="url(#clip)" filter="url(#shadow)"/>
+  <circle cx="66" cy="24" r="6" fill="#FFF7E8"/>
+  <rect x="41" y="50" width="24" height="8" rx="4" fill="#12615F"/>
+  <rect x="72" y="50" width="30" height="8" rx="4" fill="#F5C47B"/>
+  <rect x="38" y="68" width="24" height="8" rx="4" fill="#C77C1F"/>
+  <rect x="70" y="68" width="33" height="8" rx="4" fill="#DDA15E"/>
+  <rect x="37" y="86" width="23" height="8" rx="4" fill="#F3BD63"/>
+  <rect x="69" y="86" width="31" height="8" rx="4" fill="#FFF0C9"/>
+</svg>
